@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pag01.html">Quando trocar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pag02.html">Como trocar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="section01" class="container-fluid bg-01 d-flex align-items-center justify-content-center">
+        <h1 class="display-3"><strong>Guia de troca de pneus</strong></h1>
+    </section>
+
+    <section id="section02" class="container-fluid d-flex align-items-center justify-content-center bg-02">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <p>Você sabe a hora certa de trocar os pneus do seu carro? Sabe o que fazer quando um pneu fura no
+                        meio da estrada e você precisa trocar? Este guia tem como finalidade auxiliar nesse momento e
+                        mostrar que a troca de pneus não é nenhum bicho de 7 cabeças. <br><br>
+                        Primeiramente, é bom esclarecer que a troca de pneus pode ser programada por necessidade e pelo
+                        desgaste natural dos pneus, ou por um eventual furo ou vazamento que pode acontecer. Vamos
+                        explicar como proceder em cada caso e como evitar dores de cabeça em cada um deles.
+                    </p>
+                </div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-sm-6 col-12 d-flex justify-content-center">
+                    <button class="btn btn-lg btn-dark" onclick="goTo(1)">
+                        Quando trocar os pneus
+                    </button>
+                </div>
+                <div class="col-sm-6 col-12 d-flex justify-content-center">
+                    <button class="btn btn-lg btn-dark" onclick="goTo(2)">
+                        Como trocar um pneu
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <section id="section20" class="container-fluid d-flex align-items-center justify-content-center ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <h3>Obrigado!</h3>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <p>Referências:</p>
+                    <a href="https://autoesporte.globo.com/servicos/noticia/2020/06/como-trocar-o-pneu-do-carro-sem-sustos.ghtml"
+                        target="_blank" rel="noopener noreferrer">Auto Esporte</a><br>
+                    <a href="http://autopapo.uol.com.br/noticia/trocar-o-pneu-facil/" target="_blank"
+                        rel="noopener noreferrer">AutoPapo</a><br>
+                    <a href="https://www.bridgestone.com.br/pt/sobre-nos/noticias/trocar-os-pneus" target="_blank"
+                        rel="noopener noreferrer">Bridgestone</a><br>
+                    <a href="https://www.uol.com.br/carros/noticias/redacao/2019/10/06/pneus-e-seus-10-mandamentos-saiba-quando-trocar-ou-fazer-rodizio.htm"
+                        target="_blank" rel="noopener noreferrer">UOL</a>
+                </div>
+                <div class="col-md-6 col-12">
+                    <p>Contato:</p>
+                    <a href="https://github.com/vitoraf" target="_blank" rel="noopener noreferrer">Github</a><br>
+                    <a href="https://www.linkedin.com/in/vaferreira/" target="_blank"
+                        rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/jquery.event.move.js" type="text/javascript"></script>
+    <script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
+    <script>
+        $(function () {
+            $("#twi_container").twentytwenty({
+                default_offset_pct: 0.5,
+                orientation: 'horizontal',
+                before_label: 'TWI Normal',
+                after_label: 'TWI Gasto',
+            });
+        });
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        function goTo(n) {
+            switch (n) {
+                case 0:
+                    window.open('index.html', "_top");
+                    break;
+                case 1:
+                    window.open('pag01.html', "_top");
+                    break;
+                case 2:
+                    window.open('pag02.html', "_top");
+                    break;
+            }
+
+        }
+    </script>
+    <!-- <script> 
+        var scrollableElement = document.body;
+
+        scrollableElement.addEventListener('wheel', checkScrollDirection);
+        var direction;
+        function checkScrollDirection(event) {
+            if (checkScrollDirectionIsUp(event)) {
+                console.log('UP');
+                direction = 1
+            } else {
+                console.log('Down');
+                direction = 0;
+            }
+        }
+
+        function checkScrollDirectionIsUp(event) {
+            if (event.wheelDelta) {
+                return event.wheelDelta > 0;
+            }
+            return event.deltaY < 0;
+        }
+        window.addEventListener('scroll', handler, false);
+        function handler(event) {
+            console.log('entrou na handler')
+            var sections = document.getElementsByTagName('section');
+            for (let i = 0; i < sections.length; i++) {
+                {
+                    var element = sections[i];
+                    var position = element.getBoundingClientRect();
+
+                    // checking whether fully visible
+                    if (position.top >= 0 && position.bottom <= (window.innerHeight + 20)) {
+                        console.log('Element ' + sections[i].id + 'is fully visible in screen');
+                        if(direction == 1){
+                            if(i>0){
+                                var h = i-1;
+                                sections[h].scrollIntoView();
+                                console.log(sections[h].id)
+                            }
+                           
+                        }else{
+                            if(i<sections.length){
+                                var j = i+1;
+                                sections[j].scrollIntoView();
+                                console.log(sections[j].id)
+                            }
+                            
+                        }
+                    }
+                }
+
+            }
+        };
+
+    </script>-->
+</body>
+
+</html>
