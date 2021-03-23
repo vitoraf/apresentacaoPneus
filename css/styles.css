@@ -1,6 +1,10 @@
 html{
     scroll-behavior: smooth;
 }
+
+body{
+    font-family: 'Roboto';
+}
 p{
     font-size: 1.2rem;
 }
@@ -106,6 +110,11 @@ h1.display-3{
     color: #fff;
     text-shadow: 0 0 6px rgba(0,0,0,0.8);
     z-index: 2;
+    font-family: 'Montserrat';
+}
+
+h3{
+    font-family: 'Montserrat';
 }
 
 .figure-caption{
@@ -114,7 +123,7 @@ h1.display-3{
 
 #iframe-container{
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%; 
     height: 0;
 
 } 
@@ -129,6 +138,7 @@ h1.display-3{
 
 .btn{
     margin-bottom: 1rem;
+    font-family: 'Montserrat';
 }
 
 a.link{

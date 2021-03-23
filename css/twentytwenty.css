@@ -88,7 +88,8 @@
     max-width: 100%;
     position: absolute;
     top: 0;
-    display: block; }
+    display: block; 
+    width: 100%;}
   .twentytwenty-container.active .twentytwenty-overlay, .twentytwenty-container.active :hover.twentytwenty-overlay {
     background: rgba(0, 0, 0, 0); }
     .twentytwenty-container.active .twentytwenty-overlay .twentytwenty-before-label,
